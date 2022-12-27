@@ -405,6 +405,8 @@ text-align: end;
   align-items: center;
   gap: 10px;
   justify-content: center;
+  position: relative;
+  
 
 }
 .footer-container .icons{
@@ -868,4 +870,15 @@ margin-top: 160px;
   width: 300px;
   margin: auto;
 }
+}
+
+/* .waveContainer{
+  height: 30px;
+} */
+.waveFotter{
+  width: 100%;
+  height: 5px;
+  position: absolute;
+  z-index: -1;
+  display: none;
 }
