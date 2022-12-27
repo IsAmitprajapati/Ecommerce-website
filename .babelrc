@@ -1,0 +1,9 @@
+{
+    "presets": [
+        "next/babel"
+    ]
+    
+}
+// ,"@babel/present-react"
+// "next/babel",
+// "next/babel",
