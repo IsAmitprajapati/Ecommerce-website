@@ -3,7 +3,7 @@
 import  Stripe  from "stripe"
 
 // const stripe = new Stripe(`${process.env.NEXT_PUBIC_STRIPE_SECRET_KEY}`)
-const stripe = new Stripe(`sk_test_51MJSvYSHnOGYGLnP4dYQeME6VPTjBmFXBhbn58gGKbhz0uw2pbiau7aoMCOHWIlXrjBnug8rUyGfDHkKgyFYFeGO0008Hw9kkB`)
+const stripe = new Stripe(process.env.NEXT_PUBIC_STRIPE_SECRET_KEY)
 
 
 export default async function handler(req, res) {
